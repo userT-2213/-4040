@@ -13,11 +13,11 @@ jobs:
     steps:
     # 1. あなたのリポジトリにあるコードをGitHubのサーバーに連れてくる
     - name: Checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     # 2. Pythonを動かせる環境を準備する
     - name: Set up Python
-      uses: actions/setup-python@v5
+      uses: actions/setup-python@v6
       with:
         python-version: '3.10' # 使いたいPythonのバージョン
 
